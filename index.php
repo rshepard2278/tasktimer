@@ -1,11 +1,10 @@
 <?php 
-    $header_content =  '<form action="/timetracker/weekly_report.php" method="post">
-                            <select name="emp-select-top" id="emp-select-top">
-                                <option value="1618">Ensign</option>
-                                <option value="1204">Insight</option>
-                            </select>
-                            <input class="report-button" type="submit" value="Generate Weekly Report">
-                        </form>';
+    include_once "functions.php";
+    include_once "setup.php";
+    $header_content = "";
+    if ($is_admin) {
+        $header_content =  get_report_form();
+    }
     include_once "head.php";
     include_once "header.php";
 ?>
@@ -89,4 +88,9 @@
     <div class="footer-container home">
     <?php    
     include_once "footer.php";
+
+
+
+
+
 ?>

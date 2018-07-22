@@ -65,19 +65,19 @@ if(mysqli_num_rows($result)){
 			      <div class="cell  total-row" data-title="Project">
 			        Total:
 			      </div>
-			      <div class="cell" data-title="Task">
+			      <div class="cell total-row" data-title="Task">
 			        
 			      </div>
-			      <div class="cell" data-title="Date">
+			      <div class="cell total-row" data-title="Date">
 			        
 			      </div>
-			      <div class="cell" data-title="Start Time">
+			      <div class="cell total-row" data-title="Start Time">
 
 			      </div>
-  			      <div class="cell" data-title="End Time">
+  			      <div class="cell total-row" data-title="End Time">
 
 			      </div>
-			      <div class="cell" data-title="End Time">
+			      <div class="cell total-row" data-title="End Time">
 
 			      </div>
 			      <div class="cell total-row" data-title="Time Spent">
@@ -89,10 +89,19 @@ if(mysqli_num_rows($result)){
 	<div class="cell  total-row" data-title="Project">
 			        No Projects Logged Yet
 			      </div>
-			      <div class="cell" data-title="Task">
+			      <div class="cell total-row" data-title="Task">
 			        
 			      </div>
-			      <div class="cell" data-title="Date">
+			      <div class="cell total-row" data-title="Date">
+			        
+			      </div>
+			      <div class="cell total-row" data-title="Date">
+			        
+			      </div>
+			      <div class="cell total-row" data-title="Date">
+			        
+			      </div>
+			      <div class="cell total-row" data-title="Date">
 			        
 			      </div>
 			      <div class="cell total-row" data-title="Time Spent">

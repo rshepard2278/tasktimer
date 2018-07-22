@@ -133,7 +133,7 @@ input[type="button"]:disabled {
   /*margin: 0 0 40px 0;*/
   width: 100%;
   /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);*/
-  /*display: table;*/
+  display: table-header-group;
 }
 @media screen and (max-width: 580px) {
   .table {
@@ -565,7 +565,7 @@ nav a:hover {
   text-align: center;
   font-size: 18px;
   padding: 10px 20px;
-  width: 250px;
+  width: 170px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -578,7 +578,7 @@ nav a:hover {
     top: 94vh;
 }
 
-select, .task-input {
+select, .task-input, input.header-date-picker {
     border-color: #fe9100;
     border-width: 2px;
     border-radius: 3PX;
@@ -588,6 +588,15 @@ select, .task-input {
     font-weight: bold;
     border-style: unset;
     outline: none;
+}
+input.header-date-picker {
+  width: 175px;
+  padding: 6px 5px;
+  padding-bottom: 5px;
+}
+input[type="date"].header-date-picker {
+      padding: 2.5px 5px;
+  width: 175px;
 }
 
 
@@ -611,24 +620,32 @@ select, .task-input {
 }
 
 .weekly-report .total {
-    width: 6vw;
+    width: 3vw;
 }
 
 .weekly-report .start,.weekly-report .end {
-    width: 5vw;
+    width: 3vw;
 }
 
 .weekly-report .date {
-    width: 5vw;
+    min-width: 6.5vw;
 }
 
 .weekly-report .task {
-    max-width: 23vw;
-    min-width: 5vw;
+      width: 23vw;
 }
 
 .weekly-report .project {
-    width: 8vw;
+    width: 5vw;
+}
+
+.weekly-report .remove {
+    width: 4vw;
+}
+
+.weekly-report .remove.data {
+    width: 4vw;
+    text-align: center;
 }
 
 .home .employer {
@@ -680,4 +697,25 @@ h1.title {
     float: left;
     width: 40px;
     margin-right: 5px;
+}
+
+.btn {
+    background-color: #fe9100;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gone {
+  height: 0;
+  opacity: 0;
+  transition: all .25s ease-out;
+}
+
+.total-row {
+    background: #fe9100;
+    color: white;
+    background-color: #fe9100;
 }

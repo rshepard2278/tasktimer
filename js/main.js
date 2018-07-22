@@ -12,29 +12,36 @@ Any questions, suggestions? marc.fuehnen(at)gmail.com
 var startTime = new Date;
 var endTime = new Date;
 
-// Enable navigation prompt
-window.onbeforeunload = function() {
-    return true;
-};
-// Remove navigation prompt
-window.onbeforeunload = null;
-
-function editTime(id, parentElement) {
-    console.log("edit called for " + id);
+function editTime(id, parentElement, startTime) {
+    $(parentElement).prop('onclick',null).off('click');
+    //console.log("edit called for " + id);
+    var inputID = "input-" + id;
     var parentID = $(parentElement).attr('id');
+    $('#' + parentID).html('<input class="new-value" id="' + inputID + '" name="new-value" type="number">');
+    $('#' + inputID).focus();
     var newValueInput = $(parentElement).find('input');
     $(newValueInput).css("display","block");
     $(newValueInput).keyup(function(event) {
-    if (event.keyCode === 13) {
-        pressedEnter();
-    }
-});
+        if (event.keyCode === 13) { 
+            var value = $(newValueInput).val();
+            pressedEnter(value, id);
+            $('#' + parentID).html(value);
+        }
+    });
 }
 
 
 
-function pressEnter() {
-    alert("Enter Pressed");
+function pressedEnter(value, id) {
+    $.post("update_time.php",
+        {
+        id: id,
+        time: value,
+        },
+        
+        function(data,status){
+            
+        });
 }
 
 $(document).ready(function() {

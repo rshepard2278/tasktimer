@@ -17,13 +17,15 @@ if(mysqli_num_rows($result)){
 		$start_time = $row['start_time'];
 		$end_time = $row['end_time'];
 		$total_time = $end_time - $start_time;
-		$time_diff = $total_time/60/60;
+		$time_diff = $row['time'];
 		$time_obj = new times_counter($total_time);
 		$total_time = $time_obj->format_seconds($total_time);
 		$time_diff = round($time_diff, 2);
 		$start_time = date('h:i', $start_time);
 		$end_time = date('h:i', $end_time);
 		$emp = $row['employment_id'];
+		$date_obj = date_create($row['date']);
+		$date = date_format($date_obj,"D" );
 		if ($emp == 1618) {
 			$emp = "Ensign";
 		} else if ($emp == 1204) {
@@ -39,7 +41,7 @@ if(mysqli_num_rows($result)){
 			        ' . $row['description'] . '
 			      </div>
 			      <div class="cell date" data-title="Date">
-			        ' . $row['date'] . '
+			        ' . $date . '
 			      </div>			      
 			      <div class="cell start" data-title="Start Time">
 			        ' . $start_time . '
@@ -47,8 +49,8 @@ if(mysqli_num_rows($result)){
   			      <div class="cell end" data-title="End Time">
 			        ' . $end_time . '
 			      </div>
-			      <div class="cell total" data-title="Time Spent">
-			        ' . $time_diff . '
+			      <div class="cell" data-title="Time Spent"><div id="edit-' . $row["id"] . '" onclick="editTime(' . $row["id"] . ', this)">
+			        ' . $time_diff . '</div>
 			      </div>
 			    </div>' ;
 			    //array_push($times, $total_time);

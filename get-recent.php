@@ -20,7 +20,7 @@ if(mysqli_num_rows($result)){
 		$time_diff = $total_time/60/60;
 		$time_obj = new times_counter($total_time);
 		$total_time = $time_obj->format_seconds($total_time);
-		$time_diff = round($time_diff, 2);
+		$time_diff = $row['time'];
 		$start_time = date('h:i', $start_time);
 		$end_time = date('h:i', $end_time);
 		$emp = $row['employment_id'];
@@ -54,7 +54,7 @@ if(mysqli_num_rows($result)){
 			        ' . $end_time . '
 			      </div>
 			      <div class="cell" data-title="Time Spent"><div id="edit-' . $row["id"] . '" onclick="editTime(' . $row["id"] . ', this)">
-			        ' . $time_diff . '<input class="new-value" id="new-value-' . $row["id"] . '" name="new-value-' . $row["id"] . '" type="number" value="" style="display: none;"></div>
+			        ' . $time_diff . '</div>
 			      </div>
 			    </div>' ;
 			    //array_push($times, $total_time);

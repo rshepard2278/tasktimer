@@ -581,7 +581,7 @@ nav a:hover {
 select, .task-input {
     border-color: #fe9100;
     border-width: 2px;
-    border-radius: 7PX;
+    border-radius: 3PX;
     padding: 5px;
     font-family: inherit;
     color: #fe9100;
@@ -623,7 +623,8 @@ select, .task-input {
 }
 
 .weekly-report .task {
-    width: 23vw;
+    max-width: 23vw;
+    min-width: 5vw;
 }
 
 .weekly-report .project {
@@ -672,4 +673,11 @@ h1.title {
 
 .weekly-report.footer-container {
     top: 89vh;
+}
+
+.new-value {
+    display: block;
+    float: left;
+    width: 40px;
+    margin-right: 5px;
 }

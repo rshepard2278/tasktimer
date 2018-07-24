@@ -17,3 +17,4 @@ Task Timer app with weekly reports
 address
 - Add option to share weekly report automatically through email
 - Automatically generate weekly reports based on url 
+- Add report generation based on project

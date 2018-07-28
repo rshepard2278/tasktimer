@@ -1,5 +1,4 @@
 <!doctype html>
-<?php session_start(); ?>
 <html class="no-js" lang="">
 <head>
 	<meta charset="utf-8">
@@ -14,7 +13,7 @@
 
 	<link id="favicon" rel="shortcut icon" type="image/png" href="favicon.ico" />        
 
-	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<!-- <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
 	<script src="https://code.jquery.com/jquery-1.8.2.js"
 	integrity="sha256-z6aVFjdeJ+VlGcrnHyiBjg5SUVtw5wWmANHbRZmYM1o="
 	crossorigin="anonymous"></script>

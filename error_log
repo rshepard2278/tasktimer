@@ -8,3 +8,66 @@
 [22-Jul-2018 09:01:01 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 15
 [22-Jul-2018 13:01:07 UTC] PHP Fatal error:  Cannot redeclare get_real_ip() (previously declared in /home/ewvkzgh7a0pp/public_html/timetracker/functions.php:8) in /home/ewvkzgh7a0pp/public_html/timetracker/head.php on line 39
 [22-Jul-2018 13:01:31 UTC] PHP Fatal error:  Cannot redeclare get_real_ip() (previously declared in /home/ewvkzgh7a0pp/public_html/timetracker/functions.php:8) in /home/ewvkzgh7a0pp/public_html/timetracker/head.php on line 39
+[22-Jul-2018 13:58:43 UTC] PHP Parse error:  syntax error, unexpected 'date' (T_STRING) in /home/ewvkzgh7a0pp/public_html/timetracker/functions.php on line 47
+[22-Jul-2018 13:58:53 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[22-Jul-2018 09:58:53 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 15
+[22-Jul-2018 13:59:11 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[22-Jul-2018 09:59:11 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 15
+[22-Jul-2018 13:59:17 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[22-Jul-2018 09:59:17 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 15
+[22-Jul-2018 13:59:22 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[22-Jul-2018 09:59:22 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 15
+[22-Jul-2018 11:36:32 America/New_York] start time: 1532273783 End Time: 1532273791 Time: 0.0022222222222222
+[22-Jul-2018 20:42:37 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[22-Jul-2018 16:42:37 America/New_York] PHP Notice:  Undefined variable: sql in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[22-Jul-2018 16:42:37 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[22-Jul-2018 16:42:37 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 23
+[23-Jul-2018 09:22:22 America/New_York] PHP Notice:  Undefined index: empselect in /home/ewvkzgh7a0pp/public_html/timetracker/save_to_db.php on line 5
+[23-Jul-2018 09:22:22 America/New_York] start time: 1532352126 End Time: 1532352140 Time: 0.0038888888888889
+[23-Jul-2018 09:28:16 America/New_York] start time: 1532352493 End Time: 1532352495 Time: 0.00055555555555556
+[23-Jul-2018 09:28:29 America/New_York] start time: 1532352500 End Time: 1532352507 Time: 0.0019444444444444
+[23-Jul-2018 09:56:04 America/New_York] start time: 1532352686 End Time: 1532354162 Time: 0.41
+[23-Jul-2018 10:12:45 America/New_York] start time: 1532354220 End Time: 1532355163 Time: 0.26194444444444
+[23-Jul-2018 11:37:41 America/New_York] start time: 1532355179 End Time: 1532360253 Time: 1.4094444444444
+[23-Jul-2018 12:34:03 America/New_York] start time: 1532360375 End Time: 1532363641 Time: 0.90722222222222
+[23-Jul-2018 12:51:49 America/New_York] start time: 1532363671 End Time: 1532364707 Time: 0.28777777777778
+[23-Jul-2018 16:13:44 America/New_York] start time: 1532376820 End Time: 1532376821 Time: 0.00027777777777778
+[23-Jul-2018 16:22:21 America/New_York] start time: 1532376871 End Time: 1532377339 Time: 0.13
+[23-Jul-2018 16:22:51 America/New_York] start time: 1532377368 End Time: 1532377369 Time: 0.00027777777777778
+[24-Jul-2018 08:02:18 America/New_York] start time: 1532433699 End Time: 1532433738 Time: 0.010833333333333
+[24-Jul-2018 10:09:29 America/New_York] start time: 1532433745 End Time: 1532441367 Time: 2.1172222222222
+[24-Jul-2018 14:17:21 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[24-Jul-2018 10:17:21 America/New_York] PHP Notice:  Undefined variable: sql in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[24-Jul-2018 10:17:21 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[24-Jul-2018 10:17:21 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 23
+[24-Jul-2018 14:20:13 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[24-Jul-2018 10:20:13 America/New_York] PHP Notice:  Undefined variable: sql in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[24-Jul-2018 10:20:13 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[24-Jul-2018 10:20:13 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 23
+[24-Jul-2018 10:45:32 America/New_York] start time: 1532443488 End Time: 1532443531 Time: 0.011944444444444
+[24-Jul-2018 12:05:22 America/New_York] start time: 1532443545 End Time: 1532448321 Time: 1.3266666666667
+[24-Jul-2018 15:10:56 America/New_York] start time: 1532450059 End Time: 1532459455 Time: 2.61
+[24-Jul-2018 21:07:45 UTC] PHP Notice:  Undefined index: emp-select-top in /home/ewvkzgh7a0pp/public_html/timetracker/weekly_report.php on line 11
+[24-Jul-2018 17:07:45 America/New_York] PHP Notice:  Undefined variable: sql in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[24-Jul-2018 17:07:45 America/New_York] PHP Warning:  mysqli_query(): Empty query in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 18
+[24-Jul-2018 17:07:45 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ewvkzgh7a0pp/public_html/timetracker/get_weekly_times.php on line 23
+[24-Jul-2018 17:54:18 America/New_York] start time: 1532468323 End Time: 1532469257 Time: 0.25944444444444
+[25-Jul-2018 07:28:21 America/New_York] start time: 1532518070 End Time: 1532518101 Time: 0.0086111111111111
+[25-Jul-2018 07:47:43 America/New_York] start time: 1532519223 End Time: 1532519263 Time: 0.011111111111111
+[25-Jul-2018 11:10:12 America/New_York] start time: 1532519302 End Time: 1532531410 Time: 3.3633333333333
+[25-Jul-2018 11:10:45 America/New_York] start time: 1532531444 End Time: 1532531444 Time: 0
+[25-Jul-2018 15:22:28 America/New_York] start time: 1532531468 End Time: 1532546547 Time: 4.1886111111111
+[25-Jul-2018 17:19:17 America/New_York] start time: 1532549117 End Time: 1532553556 Time: 1.2330555555556
+[26-Jul-2018 09:21:56 America/New_York] start time: 1532610791 End Time: 1532611315 Time: 0.14555555555556
+[26-Jul-2018 09:40:02 America/New_York] start time: 1532611818 End Time: 1532612401 Time: 0.16194444444444
+[26-Jul-2018 09:40:49 America/New_York] start time: 1532612426 End Time: 1532612448 Time: 0.0061111111111111
+[26-Jul-2018 09:41:39 America/New_York] start time: 1532612497 End Time: 1532612498 Time: 0.00027777777777778
+[26-Jul-2018 11:00:35 America/New_York] start time: 1532617233 End Time: 1532617234 Time: 0.00027777777777778
+[26-Jul-2018 13:56:55 America/New_York] start time: 1532617254 End Time: 1532627814 Time: 2.9333333333333
+[26-Jul-2018 16:35:30 America/New_York] start time: 1532629450 End Time: 1532637329 Time: 2.1886111111111
+[27-Jul-2018 07:36:39 America/New_York] start time: 1532691252 End Time: 1532691399 Time: 0.040833333333333
+[27-Jul-2018 10:29:21 America/New_York] start time: 1532691519 End Time: 1532701760 Time: 2.8447222222222
+[27-Jul-2018 13:58:20 America/New_York] start time: 1532701770 End Time: 1532714300 Time: 3.4805555555556
+[27-Jul-2018 15:04:25 America/New_York] start time: 1532714315 End Time: 1532718263 Time: 1.0966666666667
+[27-Jul-2018 15:07:13 America/New_York] start time: 1532718372 End Time: 1532718433 Time: 0.016944444444444
+[27-Jul-2018 15:25:50 America/New_York] start time: 1532718476 End Time: 1532719550 Time: 0.29833333333333

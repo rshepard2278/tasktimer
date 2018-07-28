@@ -624,7 +624,7 @@ input[type="date"].header-date-picker {
 }
 
 .weekly-report .start,.weekly-report .end {
-    width: 3vw;
+    display: none;
 }
 
 .weekly-report .date {
@@ -632,7 +632,7 @@ input[type="date"].header-date-picker {
 }
 
 .weekly-report .task {
-      width: 23vw;
+      width: 42vw;
 }
 
 .weekly-report .project {

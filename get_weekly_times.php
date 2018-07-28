@@ -9,9 +9,9 @@ if(isset($_POST["start_date"])) {
 	$begin_week = $_POST["start_date"]; 
 } 
 if($emp_no == 1618) {
-	$sql = "SELECT * FROM tasks WHERE (date BETWEEN '{$begin_week}' AND '{$today}') AND employment_id = {$emp_no} ORDER BY date DESC, start_time DESC ";
+	$sql = "SELECT * FROM tasks WHERE (date BETWEEN '{$begin_week}' AND '{$today}') AND employment_id = {$emp_no} ORDER BY date DESC, start_time";
 } else if($emp_no == 1204) {
-	$sql = "SELECT * FROM tasks WHERE (date BETWEEN '{$begin_week}' AND '{$today}') AND employment_id = {$emp_no} ORDER BY project";
+	$sql = "SELECT * FROM tasks WHERE (date BETWEEN '{$begin_week}' AND '{$today}') AND employment_id = {$emp_no} ORDER BY date DESC, project";
 }
 
 //echo $sql;
